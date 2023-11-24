@@ -3,49 +3,7 @@ const helmet = require('helmet');
 const app = express();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.use(helmet.hidePoweredBy());
 
 
 module.exports = app;
@@ -60,3 +18,46 @@ let port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Your app is listening on port ${port}`);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
